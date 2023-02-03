@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+background-color: #39444a;
+  }
+
+  html, body {
+height: 100%;
+}
+
+.p5container {
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+/* This centers our sketch horizontally. */
+justify-content: center;
+
+/* This centers our sketch vertically. */
+align-items: center;
+}
+.overlay
+{
+  position:absolute;
+z-index: 3 !important;
+margin-bottom: 100px;
+}
+
+.mage
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
