@@ -47,7 +47,7 @@ function windowResized () {
 
 // Render loop that draws shapes with p5
 function draw (){
-   background(0, 0, 0);
+   clear(0, 0, 0);
 
 
 

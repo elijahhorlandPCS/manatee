@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-background-color: #39444a;
+background-color: #47646D;
   }
 
   html, body {
@@ -31,3 +31,23 @@ margin-bottom: 100px;
     margin-bottom: 100px;
 }
 
+
+.navbar-custom {
+    background-color: #CDE4E7;
+    /*color: #47646D;*/
+}
+
+.accordion-inside-custom{
+
+    background-color: #92D2DC;
+}
+
+.accordion-custom{
+    background-color: #92D2DC;
+
+}
+
+.card-custom{
+    background-color: #CDE4E7;
+
+}

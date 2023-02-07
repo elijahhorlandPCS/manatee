@@ -23,7 +23,7 @@ const simplex = new SimplexNoise();
 
 // Create a new canvas to the browser size
 function setup () {
-    var canvas = createCanvas(windowWidth/1.2, 500);
+    var canvas = createCanvas(windowWidth, windowHeight);
  
     // Move the canvas so it’s inside our <div id="sketch-holder">.
     canvas.parent('sketch-holder');
@@ -40,7 +40,7 @@ function windowResized () {
 
 // Render loop that draws shapes with p5
 function draw (){
-  background(13, 148, 168);
+  clear(13, 148, 168);
   
   const frequency = lerp(minFrequency, maxFrequency, mouseX / width);
   const amplitude = lerp(minAmplitude, maxAmplitude, mouseY / height);
