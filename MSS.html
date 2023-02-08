@@ -14,6 +14,11 @@
     </style>
     <link rel="stylesheet" href="style.css">
 
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway"
+  />
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
     
     <!-- Bringing in a Simplex noise function rather than p5.js builtin -->
@@ -22,43 +27,50 @@
   </head>  
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary, navbar-custom">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Manatee</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="WML.html">Where Manatees live</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="MSS.html">Manatee Specs</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="MPA.html">Manatee Physical Atributes</a></li>
-              </ul>
-            </li>
+    <div class="overlay2" style="width: 100%;">
 
-          </ul>
-            <!--
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-            -->
-        </div>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Manatee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!--
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                -->
+              <!--
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="WML.html">Where Manatees live</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="MSS.html">Manatee Specs</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="MPA.html">Manatee Physical Atributes</a></li>
+                  </ul>
+                </li>
+  
+              </ul>
+              <!--
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              -->
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
   
 
 
@@ -69,10 +81,9 @@
       <a href="youdie.html" class="overlay"><img src="https://cdn.glitch.global/b1050a27-a123-4838-b052-c1a9981c5773/manatee.png"> </a>
   <div id="sketch-holder">
     <!-- Our sketch will go here! -->
-  </div>
 
-</div>
 
+<div class="overlay vertical-center" style="width: 100%;">
 
 
 <div class="card-group">
@@ -93,7 +104,7 @@
     </div>
   </div>
   <div class="card card-custom">
-    <img src="manatee/4.jpg" class="card-img-top" alt="...">
+    <img src="manatee/4.jpg" class="card-img-top" alt="..." style="height: 350;">
     <div class="card-body">
       <h5 class="card-title">Related to</h5>
       <p class="card-text">Elephants and Hippos</p>
@@ -103,7 +114,12 @@
 </div>
   
 
+</div>
 
+</div>
+
+
+</div>
 
     <!-- <p>Thanks, chief!</p> -->
   </body>

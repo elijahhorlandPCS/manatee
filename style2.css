@@ -1,12 +1,13 @@
 body {
     padding: 0;
     margin: 0;
-background-color: #028090;
-font-family: "Raleway";
+background-color: black;
+background-image: url("funny.jpg");
   }
 
   html, body {
 height: 100%;
+font-family: "Times New Roman", Times, serif;
 }
 
 .p5container {
@@ -34,29 +35,12 @@ margin-bottom: 100px;
 
 
 .navbar-custom {
-    background-color: #F0F3BD;
-    font-size: larger;
-
-}
-
-.accordion-inside-custom{
-
-    background-color: #00A896;
-    color: white;
-    font-size: larger;
-}
-
-.accordion-custom{
-    background-color: #02C39A;
-    color: white;
-    font-size: larger;
-
-}
-
-.card-custom{
     background-color: #CDE4E7;
-
+    /*color: #47646D;*/
 }
+
+
+
 
 .accordion-center{
 
@@ -73,31 +57,3 @@ margin-bottom: 100px;
 
 
 }
-
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-
-  .overlay2{
-    position:absolute;
-    z-index: 1100 !important;
-    margin-bottom: 100px;
-
-  }
-
-  a{
-    color: unset;
-    font-weight:bolder;
-    text-decoration: none;
-    
-
-  }
-
-  .right{
-    float: right;
-
-  }

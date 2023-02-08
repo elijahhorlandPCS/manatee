@@ -35,7 +35,7 @@ function setup () {
 // On window resize, update the canvas size
 
 function windowResized () {
-  resizeCanvas(windowWidth/1.2, 500);
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 // Render loop that draws shapes with p5
